@@ -6,11 +6,16 @@
 // Execute `rustlings hint primitive_types2` or use the `hint` watch subcommand
 // for a hint.
 
-// I AM NOT DONE
+
 
 fn main() {
     // Characters (`char`)
-
+    fn is_alphabetic(character:char)-> bool {
+        if character =='c'{true}else{false}
+    }
+    fn is_numeric(numeric:i64)-> bool {
+        if numeric%1 ==0 {true}else{false}
+    }
     // Note the _single_ quotes, these are different from the double quotes
     // you've been seeing around.
     let my_first_initial = 'C';
@@ -22,7 +27,7 @@ fn main() {
         println!("Neither alphabetic nor numeric!");
     }
 
-    let // Finish this line like the example! What's your favorite character?
+    let your_character = 'c';// Finish this line like the example! What's your favorite character?
     // Try a letter, try a number, try a special character, try a character
     // from a different language than your own, try an emoji!
     if your_character.is_alphabetic() {
